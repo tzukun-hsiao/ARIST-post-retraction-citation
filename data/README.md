@@ -1,5 +1,6 @@
 Data files
-- data/225-included-in-Dimensions.csv: Seed articles used for citation searching
+- data/225-included-in-Dimensions.csv
+    - Dataset content: This file lists seed articles used for citation searching.
     - Column descriptions:
         - eppi_id: EPPI-Reviewer ID
         - doi: DOI of the article
@@ -7,7 +8,8 @@ Data files
         - title: Full article title
         - dimensions_pub_id: Dimensions AI article ID. Only articles have Dimensions AI article IDs were used for citation searching.
 
-- data/manually_identified_ASJC_all.csv. This file lists articles for which two researchers manually examined and assigned subject areas.
+- data/manually_identified_ASJC_all.csv. 
+    - Dataset content: This file lists articles for which two researchers manually examined and assigned subject areas.
     - Column descriptions:
         - ID: EPPI-Reviewer ID
         - Year: Publication year
@@ -20,5 +22,8 @@ Data files
         - ASJC 4: Assigned scopus ASJC code
         - batch: either "review_original" or "review_r1". Review_original indicates that the article is included in the initial submission. Review_r1 indicates that the article is newly included in the revision.
 
-- data/PostRetractionCitationData_20261119-EH_cleaned.csv. This file contains data extracted from the included studies.
+- data/PostRetractionCitationData_20261119-EH_cleaned.csv. 
+    - Dataset content: This file contains data extracted from the included studies.
+- data/Included Studies and Secondary Reports.docx
+    - Dataset content: Bibliographic data for included studies and secondary reports
 
